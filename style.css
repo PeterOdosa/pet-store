@@ -1,4 +1,14 @@
 body {
-    background-color: #333;
+    background-color: #37286e;
     color: whitesmoke;
+}
+
+a {
+    color: crimson;
+}
+
+img {
+    height: auto;
+    width: 100px;
+
 }

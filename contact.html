@@ -11,11 +11,70 @@
     <a href="index.html">Home</a>
     <br>
     <br>
-    <img src="https://st2.depositphotos.com/1072614/7503/i/950/depositphotos_75038777-stock-photo-cat-talking-on-the-phone.jpg" height="350" width="380">
+    <img src="https://res.cloudinary.com/dlgr2osg1/image/upload/v1677106243/Project%20Images/depositphotos_75038777-stock-photo-cat-talking-on-the-phone_a0nvlx.jpg" height="350" width="380">
     <h1>Contact Us</h1>
     <h3>📁 titoniopets@hotmail.com</h3>
     <h3>📱 +2348178345672</h3>
-    <h4>We are here 24/7 for all your pet needs!</h4>
+    <h2>We are here 24/7 for all your pet needs!</h2>
+
+    <form action="">
+        <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+        </div>
+        <br>
+        <div>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required>
+        </div>
+        <br>
+        <div>
+            <form>
+                <label for="ptype">Pet Type:</label>
+                <select name="ptype" id="ptype">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bunny" selected>Bunny</option>
+                    <option value="hampster">Hampster</option>
+                    <option value="iguana">Iguana</option>
+                </select>
+            </form>            
+        </div>
+        <br>
+        <div>
+            <label for="petsex">Pet Sex:</label>
+
+            <label for="Male">Male</label>
+            <input type="radio" name="psex" id="Male" value="Male">
+
+            <label for="Female">Female</label>
+            <input type="radio" name="psex" id="Female" value="Female">
+
+            <label for="Not Sure">Not Sure</label>
+            <input type="radio" name="psex" id="Not Sure" value="Not Sure">
+        </div>
+        <br>
+        <div>
+            <label for="pbreed">Pet Breed:</label>
+            <input type="text" id="pbreed" name="pbreed" placeholder="pet breed" required>
+        </div>
+        <br>
+        <div>
+            <label for="pname">Pet Name</label>
+            <input type="text" id="pname" name="pname" placeholder="Sparkles" required>
+        </div>
+        <br>
+        <div>
+            <label for="lvisit">Last Vetinary Visit</label>
+            <input type="date" id="lvisit" name="lvisit">
+        </div>
+        <br>
+        <form>
+            <div>
+                <button>Submit</button>
+            </div>
+        </form>        
+    </form>
 
 </body>
 </html>
